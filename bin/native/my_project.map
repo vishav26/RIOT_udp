@@ -1,0 +1,2199 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+                              /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o (main)
+/home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o (board_init)
+/home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o) (native_motor_driver_qdec_simulation)
+/home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o (kernel_init)
+/home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o (_assert_failure)
+/home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o) (thread_create)
+/home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o) (assert_crash_message)
+/home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o) (sched_num_threads)
+/home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o (real_exit)
+/home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o) (native_interrupts_enabled)
+/home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o) (thread_stack_init)
+/home/vishav/RIOT/examples/my_project/bin/native/cpu.a(tramp.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o) (_native_sig_leave_tramp)
+/home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o) (_native_LED_GREEN_ON)
+/home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o (tty_uart_setup)
+/home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o) (pm_set_lowest)
+/home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o) (ps)
+/home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o (periph_init)
+/home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o) (auto_init)
+/home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o) (auto_init_netdev_tap)
+/home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o) (native_async_read_setup)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o) (gnrc_netif_ethernet_create)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o) (gnrc_pktbuf_remove_snip)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o) (gnrc_pktbuf_init)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o) (gnrc_pktdump_init)
+/home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o) (netdev_tap_setup)
+/home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o) (od_hex_dump)
+/home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o) (rtc_init)
+/home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o) (_mutex_lock)
+/home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o) (msg_reply)
+/home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o) (print_byte_hex)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o) (gnrc_netif_create)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o) (gnrc_netif_get_l2addr_opt)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o) (gnrc_netif_hdr_print)
+/home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o) (iolist_count)
+/home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o) (l2util_eui64_from_addr)
+/home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o) (netdev_eth_get)
+/home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o) (rmutex_lock)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o) (gnrc_netapi_dispatch)
+/home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                              /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o) (gnrc_netreg_lookup)
+/usr/lib32/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o (__libc_csu_init)
+/usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+                              /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o (__stack_chk_fail_local)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libdl.so.2                    /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o) (dlsym@@GLIBC_2.0)
+libc.so.6                     /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o) (socket@@GLIBC_2.0)
+/home/vishav/RIOT/examples/my_project/bin/native/cpu.a(tramp.o): dynamic relocation against `_native_saved_eip' in read-only section `.text'
+
+Discarded input sections
+
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+ .group         0x0000000000000000        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .group         0x0000000000000000        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .bss._native_unix_socket_path
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ .data.rel.ro.motor_driver_config
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .data.rel.ro.local.motor_driver_config
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .rodata        0x0000000000000000       0x3f /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .text.native_motor_driver_qdec_simulation
+                0x0000000000000000       0xd9 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.clist_lpoprpush
+                0x0000000000000000       0x4a /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.pid_is_valid
+                0x0000000000000000       0x4f /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.thread_get
+                0x0000000000000000       0x62 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.thread_getstatus
+                0x0000000000000000       0x5b /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.thread_getname
+                0x0000000000000000       0x5b /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.thread_sleep
+                0x0000000000000000       0x70 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.thread_wakeup
+                0x0000000000000000       0xb4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.thread_yield
+                0x0000000000000000       0x8a /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .openocd       0x0000000000000000        0x2 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .data.rel.ro.motor_driver_config
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .text._native_read
+                0x0000000000000000       0x6c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .text.print_thread_sigmask
+                0x0000000000000000      0x111 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .text.print_sigmasks
+                0x0000000000000000       0xab /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .text.native_print_signals
+                0x0000000000000000      0x1d4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .text.unregister_interrupt
+                0x0000000000000000       0x72 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .text.thread_print_stack
+                0x0000000000000000       0x2f /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(tramp.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(tramp.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .data.rel.ro.motor_driver_config
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_GREEN_OFF
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_GREEN_TOGGLE
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_RED_ON
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_RED_TOGGLE
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .bss.uart_config
+                0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .bss.tty_fds   0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .text.io_signal_handler
+                0x0000000000000000       0xf0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .text.uart_init
+                0x0000000000000000      0x338 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .text.uart_write
+                0x0000000000000000       0x64 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .text.uart_poweron
+                0x0000000000000000       0x35 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .text.uart_poweroff
+                0x0000000000000000       0x35 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ .text.pm_reboot
+                0x0000000000000000       0x81 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_cleanup
+                0x0000000000000000       0x74 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pkt_len
+                0x0000000000000000       0x57 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .rodata        0x0000000000000000       0x22 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pktbuf_replace_snip
+                0x0000000000000000      0x1df /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pktbuf_reverse_snips
+                0x0000000000000000       0xa7 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pktbuf_merge
+                0x0000000000000000       0xf2 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_start_write
+                0x0000000000000000       0xdf /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._print_chunk
+                0x0000000000000000       0x71 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._print_unused
+                0x0000000000000000       0x5b /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_stats
+                0x0000000000000000      0x1ab /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text.rtc_poweroff
+                0x0000000000000000       0x76 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text.rtc_set_time
+                0x0000000000000000       0x9c /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text.rtc_get_time
+                0x0000000000000000       0xc5 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text.rtc_set_alarm
+                0x0000000000000000      0x110 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text.rtc_get_alarm
+                0x0000000000000000       0xf0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text.rtc_clear_alarm
+                0x0000000000000000       0x82 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .text.mutex_unlock_and_sleep
+                0x0000000000000000       0xcc /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.msg_send_receive
+                0x0000000000000000       0xc9 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.msg_reply_int
+                0x0000000000000000       0xa0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.msg_try_receive
+                0x0000000000000000       0x44 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.msg_avail
+                0x0000000000000000       0x6b /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.msg_queue_print
+                0x0000000000000000      0x130 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .rodata._tenmap
+                0x0000000000000000       0x20 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text._is_digit
+                0x0000000000000000       0x4c /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text._is_upper
+                0x0000000000000000       0x4c /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text._to_lower
+                0x0000000000000000       0x3b /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_bytes_hex
+                0x0000000000000000       0x81 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_strnlen
+                0x0000000000000000       0x67 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_str  0x0000000000000000       0x85 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text._byte_mod25
+                0x0000000000000000       0x59 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text._hex_nib
+                0x0000000000000000       0x4d /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_hex_byte
+                0x0000000000000000       0x6f /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_hex_bytes
+                0x0000000000000000       0xaa /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_u16_hex
+                0x0000000000000000       0x51 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_u64_hex
+                0x0000000000000000       0x54 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_u64_dec
+                0x0000000000000000      0x2a3 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_u32_dec
+                0x0000000000000000       0xcf /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_u16_dec
+                0x0000000000000000       0x50 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_s64_dec
+                0x0000000000000000       0xa0 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_s32_dec
+                0x0000000000000000       0x86 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_s16_dec
+                0x0000000000000000       0x50 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_s16_dfp
+                0x0000000000000000       0x59 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .rodata        0x0000000000000000        0xe /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_s32_dfp
+                0x0000000000000000      0x1a7 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_float
+                0x0000000000000000      0x183 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_lpad
+                0x0000000000000000       0x9c /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_char
+                0x0000000000000000       0x50 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.fmt_to_lower
+                0x0000000000000000       0xba /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.scn_u32_dec
+                0x0000000000000000       0x97 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.scn_u32_hex
+                0x0000000000000000       0xcb /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.print_u32_dec
+                0x0000000000000000       0x5c /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.print_s32_dec
+                0x0000000000000000       0x5c /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.print_u64_hex
+                0x0000000000000000       0x6a /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.print_u64_dec
+                0x0000000000000000       0x65 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.print_s64_dec
+                0x0000000000000000       0x67 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.print_float
+                0x0000000000000000       0x65 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_numof
+                0x0000000000000000       0x65 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_iter
+                0x0000000000000000       0x98 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_get_by_pid
+                0x0000000000000000       0x6c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._dehex   0x0000000000000000       0x7c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_addr_from_str
+                0x0000000000000000      0x185 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+ .text.gnrc_netif_eui64_from_addr
+                0x0000000000000000       0x7d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+ .text.iolist_size
+                0x0000000000000000       0x57 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text.eui48_to_eui64
+                0x0000000000000000       0x95 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text.eui48_from_ipv6_iid
+                0x0000000000000000       0x8c /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .rodata        0x0000000000000000      0x108 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text.l2util_eui64_from_addr
+                0x0000000000000000       0xa8 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text.l2util_ipv6_iid_from_addr
+                0x0000000000000000       0x76 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text.l2util_ipv6_iid_to_addr
+                0x0000000000000000       0x98 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text.l2util_ndp_addr_len_from_l2ao
+                0x0000000000000000       0x93 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .text.rmutex_trylock
+                0x0000000000000000       0x44 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .rodata        0x0000000000000000       0x22 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text._gnrc_netapi_get_set
+                0x0000000000000000       0xbd /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .group         0x0000000000000000        0x8 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .data          0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .bss           0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.thread_has_msg_queue
+                0x0000000000000000       0x42 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .data.rel.ro.motor_driver_config
+                0x0000000000000000       0x48 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_init
+                0x0000000000000000       0x3a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .rodata        0x0000000000000000       0x7a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_register
+                0x0000000000000000       0xd7 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_unregister
+                0x0000000000000000       0xae /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_calc_csum
+                0x0000000000000000       0x4c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .group         0x0000000000000000        0x8 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .group         0x0000000000000000        0x8 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .data          0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+START GROUP
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/auto_init_saul.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/board.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/core.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/cpu.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/fmt.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pkt.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/iolist.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/l2util.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/od.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/periph.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/phydat.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/ps.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/saul.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/saul_reg.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/shell.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/shell_commands.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/sys.a
+LOAD /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/libm.so
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/libdl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/libc.so
+START GROUP
+LOAD /lib32/libc.so.6
+LOAD /usr/lib32/libc_nonshared.a
+LOAD /lib32/ld-linux.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000154                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000154       0x13
+ *(.interp)
+ .interp        0x0000000000000154       0x13 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.note.ABI-tag   0x0000000000000168       0x20
+ .note.ABI-tag  0x0000000000000168       0x20 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000188       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000188       0x24 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001ac       0xb4
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001ac       0xb4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.dynsym         0x0000000000000260      0x3f0
+ *(.dynsym)
+ .dynsym        0x0000000000000260      0x3f0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.dynstr         0x0000000000000650      0x251
+ *(.dynstr)
+ .dynstr        0x0000000000000650      0x251 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.gnu.version    0x00000000000008a2       0x7e
+ *(.gnu.version)
+ .gnu.version   0x00000000000008a2       0x7e /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.gnu.version_d  0x0000000000000920        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000920        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.gnu.version_r  0x0000000000000920       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000920       0x70 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.rel.dyn        0x0000000000000990      0x198
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text.core_panic
+                0x0000000000000990        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.text      0x0000000000000990       0x38 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00000000000009c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.ro.local.long_opts
+                0x00000000000009c8       0x40 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.ro.ethernet_ops
+                0x0000000000000a08       0x20 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.ro.local.netdev_driver_tap
+                0x0000000000000a28       0x30 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x0000000000000a58        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.local.main_name
+                0x0000000000000a60        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.local.idle_name
+                0x0000000000000a68        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.data.rel.local.state_names
+                0x0000000000000a70       0x60 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000ad0       0x40 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000000000b10        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000b10        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.fini_array
+                0x0000000000000b10        0x8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .rel.init_array
+                0x0000000000000b18       0x10 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.rel.plt        0x0000000000000b28      0x118
+ *(.rel.plt)
+ .rel.plt       0x0000000000000b28      0x118 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.init           0x0000000000000c40       0x23
+ *(SORT_NONE(.init))
+ .init          0x0000000000000c40       0x1e /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+                0x0000000000000c40                _init
+ .init          0x0000000000000c5e        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+
+.plt            0x0000000000000c70      0x240
+ *(.plt)
+ .plt           0x0000000000000c70      0x240 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000000eb0       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000000eb0       0x10 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000ec0     0x93e4
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000000ec0      0x38a /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000000000000124a       0x36 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                0x000000000000124a                _start
+ .gnu.linkonce.t.__x86.get_pc_thunk.bx
+                0x0000000000001280        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+                0x0000000000001280                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000001284        0xc 
+ .text          0x0000000000001290       0xe9 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000001379        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+                0x0000000000001379                __x86.get_pc_thunk.dx
+ .text._native_input
+                0x000000000000137d       0x9c /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x000000000000137d                _native_input
+ .text._native_log_output
+                0x0000000000001419      0x162 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x0000000000001419                _native_log_output
+ .text.daemonize
+                0x000000000000157b      0x106 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x000000000000157b                daemonize
+ .text.filter_daemonize_argv
+                0x0000000000001681       0xba /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .text.usage_exit
+                0x000000000000173b       0xce /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x000000000000173b                usage_exit
+ .text.main     0x0000000000001809      0x21e /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+                0x0000000000001809                main
+ .text.board_init
+                0x0000000000001a27       0x50 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+                0x0000000000001a27                board_init
+ .text.main_trampoline
+                0x0000000000001a77       0x5a /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .text.idle_thread
+                0x0000000000001ad1       0x2a /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .text.kernel_init
+                0x0000000000001afb       0x7d /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+                0x0000000000001afb                kernel_init
+ .text._assert_failure
+                0x0000000000001b78       0x52 /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+                0x0000000000001b78                _assert_failure
+ .text.cib_init
+                0x0000000000001bca       0x8b /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .text.thread_add_to_list
+                0x0000000000001c55       0xbe /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+                0x0000000000001c55                thread_add_to_list
+ .text.thread_measure_stack_free
+                0x0000000000001d13       0x5c /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+                0x0000000000001d13                thread_measure_stack_free
+ .text.thread_create
+                0x0000000000001d6f      0x277 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+                0x0000000000001d6f                thread_create
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000001fe6        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+                0x0000000000001fe6                __x86.get_pc_thunk.ax
+ .text.panic_arch
+                0x0000000000001fea       0x2f /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+                0x0000000000001fea                panic_arch
+ .text.core_panic
+                0x0000000000002019       0xa1 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+                0x0000000000002019                core_panic
+ .text.bitarithm_lsb
+                0x00000000000020ba       0x51 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .text.clist_rpush
+                0x000000000000210b       0x6c /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .text.clist_lpop
+                0x0000000000002177       0x72 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .text.sched_run
+                0x00000000000021e9       0xc3 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x00000000000021e9                sched_run
+ .text.sched_set_status
+                0x00000000000022ac      0x11d /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x00000000000022ac                sched_set_status
+ .text.sched_switch
+                0x00000000000023c9       0x90 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x00000000000023c9                sched_switch
+ .text.sched_task_exit
+                0x0000000000002459       0x67 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x0000000000002459                sched_task_exit
+ .text._native_syscall_enter
+                0x00000000000024c0       0x43 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000024c0                _native_syscall_enter
+ .text._native_syscall_leave
+                0x0000000000002503      0x137 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002503                _native_syscall_leave
+ .text.malloc   0x000000000000263a       0xa8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000000263a                malloc
+ .text.free     0x00000000000026e2       0x55 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000026e2                free
+ .text.calloc   0x0000000000002737       0xb1 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002737                calloc
+ .text.realloc  0x00000000000027e8       0x63 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000027e8                realloc
+ .text._native_write
+                0x000000000000284b       0x6c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000000284b                _native_write
+ .text._native_writev
+                0x00000000000028b7       0x6c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000028b7                _native_writev
+ .text.putchar  0x0000000000002923       0x4c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002923                putchar
+ .text.puts     0x000000000000296f       0x6d /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000000296f                puts
+ .text.make_message
+                0x00000000000029dc       0xd8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000029dc                make_message
+ .text.printf   0x0000000000002ab4       0x5c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002ab4                printf
+ .text.vprintf  0x0000000000002b10       0x55 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002b10                vprintf
+ .text.fprintf  0x0000000000002b65       0x5b /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002b65                fprintf
+ .text.vfprintf
+                0x0000000000002bc0       0xb5 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002bc0                vfprintf
+ .text.vwarn    0x0000000000002c75      0x14e /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002c75                vwarn
+ .text.vwarnx   0x0000000000002dc3      0x103 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002dc3                vwarnx
+ .text.verr     0x0000000000002ec6       0x4e /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002ec6                verr
+ .text.verrx    0x0000000000002f14       0x4e /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002f14                verrx
+ .text.warn     0x0000000000002f62       0x4d /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002f62                warn
+ .text.warnx    0x0000000000002faf       0x4d /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002faf                warnx
+ .text.err      0x0000000000002ffc       0x3f /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000002ffc                err
+ .text.errx     0x000000000000303b       0x3f /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000000303b                errx
+ .text.getpid   0x000000000000307a       0x46 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000000307a                getpid
+ .text._native_init_syscalls
+                0x00000000000030c0      0x5af /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000030c0                _native_init_syscalls
+ .text.thread_isr_stack_pointer
+                0x000000000000366f       0x35 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000366f                thread_isr_stack_pointer
+ .text.thread_isr_stack_start
+                0x00000000000036a4       0x35 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000036a4                thread_isr_stack_start
+ .text.irq_disable
+                0x00000000000036d9       0x85 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000036d9                irq_disable
+ .text.irq_enable
+                0x000000000000375e       0xa5 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000375e                irq_enable
+ .text.irq_restore
+                0x0000000000003803       0x47 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003803                irq_restore
+ .text.irq_is_in
+                0x000000000000384a       0x35 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000384a                irq_is_in
+ .text._native_popsig
+                0x000000000000387f       0x9f /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000387f                _native_popsig
+ .text.native_irq_handler
+                0x000000000000391e       0x8f /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000391e                native_irq_handler
+ .text.isr_set_sigmask
+                0x00000000000039ad       0x60 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000039ad                isr_set_sigmask
+ .text.native_isr_entry
+                0x0000000000003a0d      0x18f /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003a0d                native_isr_entry
+ .text.set_signal_handler
+                0x0000000000003b9c      0x15f /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003b9c                set_signal_handler
+ .text.register_interrupt
+                0x0000000000003cfb       0x77 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003cfb                register_interrupt
+ .text.native_shutdown
+                0x0000000000003d72       0x4e /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .text.native_interrupt_init
+                0x0000000000003dc0      0x3bc /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003dc0                native_interrupt_init
+ .text._native_mod_ctx_leave_sigh
+                0x000000000000417c       0x54 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .text.thread_isr_stack_usage
+                0x00000000000041d0       0x33 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x00000000000041d0                thread_isr_stack_usage
+ .text.thread_stack_init
+                0x0000000000004203      0x106 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x0000000000004203                thread_stack_init
+ .text.isr_cpu_switch_context_exit
+                0x0000000000004309       0x97 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x0000000000004309                isr_cpu_switch_context_exit
+ .text.cpu_switch_context_exit
+                0x00000000000043a0       0xd1 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x00000000000043a0                cpu_switch_context_exit
+ .text.isr_thread_yield
+                0x0000000000004471       0x95 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x0000000000004471                isr_thread_yield
+ .text.thread_yield_higher
+                0x0000000000004506      0x100 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x0000000000004506                thread_yield_higher
+ .text.native_cpu_init
+                0x0000000000004606       0xa2 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x0000000000004606                native_cpu_init
+ .text          0x00000000000046a8       0x3f /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(tramp.o)
+                0x00000000000046a8                _native_sig_leave_tramp
+                0x00000000000046d6                _native_sig_leave_handler
+ .text._native_LED_GREEN_ON
+                0x00000000000046e7       0x48 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+                0x00000000000046e7                _native_LED_GREEN_ON
+ .text._native_LED_RED_OFF
+                0x000000000000472f       0x48 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+                0x000000000000472f                _native_LED_RED_OFF
+ .text.tty_uart_setup
+                0x0000000000004777       0x5f /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+                0x0000000000004777                tty_uart_setup
+ .text.pm_set_lowest
+                0x00000000000047d6       0x89 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+                0x00000000000047d6                pm_set_lowest
+ .text.pm_off   0x000000000000485f       0x3e /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+                0x000000000000485f                pm_off
+ .text.ps       0x000000000000489d      0x1d1 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+                0x000000000000489d                ps
+ .text.periph_init
+                0x0000000000004a6e       0x3c /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+                0x0000000000004a6e                periph_init
+ .text.auto_init
+                0x0000000000004aaa       0x44 /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+                0x0000000000004aaa                auto_init
+ .text.auto_init_netdev_tap
+                0x0000000000004aee       0xc4 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+                0x0000000000004aee                auto_init_netdev_tap
+ .text._async_io_isr
+                0x0000000000004bb2      0x1f9 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_setup
+                0x0000000000004dab       0x4a /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+                0x0000000000004dab                native_async_read_setup
+ .text.native_async_read_continue
+                0x0000000000004df5       0x35 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+                0x0000000000004df5                native_async_read_continue
+ .text.native_async_read_add_handler
+                0x0000000000004e2a      0x105 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+                0x0000000000004e2a                native_async_read_add_handler
+ .text.byteorder_swaps
+                0x0000000000004f2f       0x3d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.byteorder_htons
+                0x0000000000004f6c       0x60 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.byteorder_ntohs
+                0x0000000000004fcc       0x49 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_nettype_from_ethertype
+                0x0000000000005015       0x3a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_nettype_to_ethertype
+                0x000000000000504f       0x39 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_pktbuf_release
+                0x0000000000005088       0x4c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_init
+                0x00000000000050d4       0x78 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_get_src_addr
+                0x000000000000514c       0x3a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_set_src_addr
+                0x0000000000005186       0x71 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_get_dst_addr
+                0x00000000000051f7       0x45 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_set_dst_addr
+                0x000000000000523c       0x7d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_ethernet_create
+                0x00000000000052b9       0x78 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+                0x00000000000052b9                gnrc_netif_ethernet_create
+ .text._addr_set_broadcast
+                0x0000000000005331       0x51 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text._addr_set_multicast
+                0x0000000000005382       0x4a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text._send    0x00000000000053cc      0x1de /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text._recv    0x00000000000055aa      0x220 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .text.gnrc_pktbuf_release
+                0x00000000000057ca       0x4c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pktbuf_remove_snip
+                0x0000000000005816       0x9c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+                0x0000000000005816                gnrc_pktbuf_remove_snip
+ .text.mutex_lock
+                0x00000000000058b2       0x4c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._pktbuf_contains
+                0x00000000000058fe       0x4a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._align   0x0000000000005948       0x3d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._set_pktsnip
+                0x0000000000005985       0x7a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_init
+                0x00000000000059ff       0x7d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x00000000000059ff                gnrc_pktbuf_init
+ .text.gnrc_pktbuf_add
+                0x0000000000005a7c       0x99 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x0000000000005a7c                gnrc_pktbuf_add
+ .text.gnrc_pktbuf_mark
+                0x0000000000005b15      0x270 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x0000000000005b15                gnrc_pktbuf_mark
+ .text.gnrc_pktbuf_realloc_data
+                0x0000000000005d85      0x21a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x0000000000005d85                gnrc_pktbuf_realloc_data
+ .text.gnrc_pktbuf_hold
+                0x0000000000005f9f       0x85 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x0000000000005f9f                gnrc_pktbuf_hold
+ .text._release_error_locked
+                0x0000000000006024       0xf0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_release_error
+                0x0000000000006114       0x75 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x0000000000006114                gnrc_pktbuf_release_error
+ .text._create_snip
+                0x0000000000006189       0xda /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._pktbuf_alloc
+                0x0000000000006263      0x151 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._too_small_hole
+                0x00000000000063b4       0x52 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._merge   0x0000000000006406       0x80 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._pktbuf_free
+                0x0000000000006486      0x155 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_release
+                0x00000000000065db       0x4c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text._dump_snip
+                0x0000000000006627      0x11d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text._dump    0x0000000000006744       0xc0 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text._eventloop
+                0x0000000000006804       0xea /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text.gnrc_pktdump_init
+                0x00000000000068ee       0x78 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+                0x00000000000068ee                gnrc_pktdump_init
+ .text._get_mac_addr
+                0x0000000000006966       0x5f /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._set_mac_addr
+                0x00000000000069c5       0x5f /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._get_promiscous
+                0x0000000000006a24       0x44 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._set_promiscous
+                0x0000000000006a68       0x4e /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._isr     0x0000000000006ab6       0x6d /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._get     0x0000000000006b23       0xc8 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._set     0x0000000000006beb       0xd5 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._is_addr_broadcast
+                0x0000000000006cc0       0x8e /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._is_addr_multicast
+                0x0000000000006d4e       0x45 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._continue_reading
+                0x0000000000006d93      0x17e /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._recv    0x0000000000006f11      0x192 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._send    0x00000000000070a3       0xe8 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text.netdev_tap_setup
+                0x000000000000718b       0x70 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+                0x000000000000718b                netdev_tap_setup
+ .text._tap_isr
+                0x00000000000071fb       0x79 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._init    0x0000000000007274      0x245 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .text.od_hex_dump
+                0x00000000000074b9       0xf5 /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+                0x00000000000074b9                od_hex_dump
+ .text.rtc_init
+                0x00000000000075ae       0x7f /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+                0x00000000000075ae                rtc_init
+ .text.rtc_poweron
+                0x000000000000762d       0x5d /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+                0x000000000000762d                rtc_poweron
+ .text.list_remove_head
+                0x000000000000768a       0x4f /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .text._mutex_lock
+                0x00000000000076d9       0xf3 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+                0x00000000000076d9                _mutex_lock
+ .text.mutex_unlock
+                0x00000000000077cc       0xef /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+                0x00000000000077cc                mutex_unlock
+ .text.pid_is_valid
+                0x00000000000078bb       0x4f /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.list_remove_head
+                0x000000000000790a       0x4f /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.cib_init
+                0x0000000000007959       0x8b /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.cib_avail
+                0x00000000000079e4       0x43 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.cib_get  0x0000000000007a27       0x62 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.cib_put  0x0000000000007a89       0x72 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.thread_has_msg_queue
+                0x0000000000007afb       0x42 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.queue_msg
+                0x0000000000007b3d       0x82 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.msg_send
+                0x0000000000007bbf       0x99 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                0x0000000000007bbf                msg_send
+ .text.msg_try_send
+                0x0000000000007c58       0x99 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                0x0000000000007c58                msg_try_send
+ .text._msg_send
+                0x0000000000007cf1      0x1b8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.msg_send_to_self
+                0x0000000000007ea9       0x7b /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                0x0000000000007ea9                msg_send_to_self
+ .text.msg_send_int
+                0x0000000000007f24       0xcf /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                0x0000000000007f24                msg_send_int
+ .text.msg_reply
+                0x0000000000007ff3       0xf0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                0x0000000000007ff3                msg_reply
+ .text.msg_receive
+                0x00000000000080e3       0x44 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                0x00000000000080e3                msg_receive
+ .text._msg_receive
+                0x0000000000008127      0x21b /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .text.msg_init_queue
+                0x0000000000008342       0x66 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                0x0000000000008342                msg_init_queue
+ .text.fmt_byte_hex
+                0x00000000000083a8       0x7e /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                0x00000000000083a8                fmt_byte_hex
+ .text.fmt_strlen
+                0x0000000000008426       0x54 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                0x0000000000008426                fmt_strlen
+ .text.fmt_bytes_hex_reverse
+                0x000000000000847a       0x7a /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                0x000000000000847a                fmt_bytes_hex_reverse
+ .text.fmt_u32_hex
+                0x00000000000084f4       0x4e /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                0x00000000000084f4                fmt_u32_hex
+ .text.print    0x0000000000008542       0x73 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                0x0000000000008542                print
+ .text.print_byte_hex
+                0x00000000000085b5       0x5a /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                0x00000000000085b5                print_byte_hex
+ .text.print_u32_hex
+                0x000000000000860f       0x58 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                0x000000000000860f                print_u32_hex
+ .text.print_str
+                0x0000000000008667       0x52 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                0x0000000000008667                print_str
+ .text.gnrc_netapi_dispatch_receive
+                0x00000000000086b9       0x5d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.rmutex_init
+                0x0000000000008716       0x56 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_pktbuf_release
+                0x000000000000876c       0x4c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_create
+                0x00000000000087b8      0x162 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x00000000000087b8                gnrc_netif_create
+ .text.gnrc_netif_get_from_netdev
+                0x000000000000891a      0x134 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x000000000000891a                gnrc_netif_get_from_netdev
+ .text.gnrc_netif_set_from_netdev
+                0x0000000000008a4e      0x1a9 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x0000000000008a4e                gnrc_netif_set_from_netdev
+ .text.gnrc_netif_addr_to_str
+                0x0000000000008bf7       0xd2 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x0000000000008bf7                gnrc_netif_addr_to_str
+ .text.gnrc_netif_acquire
+                0x0000000000008cc9       0x5d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x0000000000008cc9                gnrc_netif_acquire
+ .text.gnrc_netif_release
+                0x0000000000008d26       0x5d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x0000000000008d26                gnrc_netif_release
+ .text.gnrc_netif_is_6ln
+                0x0000000000008d83       0x63 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x0000000000008d83                gnrc_netif_is_6ln
+ .text._update_l2addr_from_dev
+                0x0000000000008de6       0xbc /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._init_from_device
+                0x0000000000008ea2       0x92 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._configure_netdev
+                0x0000000000008f34       0x54 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._test_options
+                0x0000000000008f88      0x1ce /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._gnrc_netif_thread
+                0x0000000000009156      0x34b /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._pass_on_packet
+                0x00000000000094a1       0x61 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._event_cb
+                0x0000000000009502       0xd5 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_get_l2addr_opt
+                0x00000000000095d7       0x3f /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+                0x00000000000095d7                gnrc_netif_get_l2addr_opt
+ .text.gnrc_netif_hdr_get_src_addr
+                0x0000000000009616       0x3a /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .text.gnrc_netif_hdr_get_dst_addr
+                0x0000000000009650       0x45 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .text.gnrc_netif_hdr_print
+                0x0000000000009695      0x1cb /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+                0x0000000000009695                gnrc_netif_hdr_print
+ .text.iolist_count
+                0x0000000000009860       0x52 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+                0x0000000000009860                iolist_count
+ .text.iolist_to_iovec
+                0x00000000000098b2       0x91 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+                0x00000000000098b2                iolist_to_iovec
+ .text.eui48_to_eui64
+                0x0000000000009943       0x95 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .text.eui48_to_ipv6_iid
+                0x00000000000099d8       0x5c /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .text._get_iid
+                0x0000000000009a34       0x7c /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .text.netdev_eth_get
+                0x0000000000009ab0      0x113 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+                0x0000000000009ab0                netdev_eth_get
+ .text.netdev_eth_set
+                0x0000000000009bc3       0x58 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+                0x0000000000009bc3                netdev_eth_set
+ .text.mutex_trylock
+                0x0000000000009c1b       0x4b /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .text.mutex_lock
+                0x0000000000009c66       0x4c /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .text.thread_getpid
+                0x0000000000009cb2       0x38 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .text._lock    0x0000000000009cea       0xc4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .text.rmutex_lock
+                0x0000000000009dae       0x45 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+                0x0000000000009dae                rmutex_lock
+ .text.rmutex_unlock
+                0x0000000000009df3       0xda /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+                0x0000000000009df3                rmutex_unlock
+ .text.gnrc_pktbuf_release
+                0x0000000000009ecd       0x4c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text._gnrc_netapi_send_recv
+                0x0000000000009f19       0x73 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+                0x0000000000009f19                _gnrc_netapi_send_recv
+ .text.gnrc_netapi_dispatch
+                0x0000000000009f8c       0xdb /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+                0x0000000000009f8c                gnrc_netapi_dispatch
+ .text._netreg_lookup
+                0x000000000000a067       0x9b /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_lookup
+                0x000000000000a102       0x4d /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                0x000000000000a102                gnrc_netreg_lookup
+ .text.gnrc_netreg_num
+                0x000000000000a14f       0x6e /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                0x000000000000a14f                gnrc_netreg_num
+ .text.gnrc_netreg_getnext
+                0x000000000000a1bd       0x58 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                0x000000000000a1bd                gnrc_netreg_getnext
+ *fill*         0x000000000000a215        0xb 
+ .text          0x000000000000a220       0x62 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                0x000000000000a220                __libc_csu_init
+                0x000000000000a280                __libc_csu_fini
+ *fill*         0x000000000000a282        0xe 
+ .text          0x000000000000a290       0x14 /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+                0x000000000000a290                __stack_chk_fail_local
+ *(.gnu.warning)
+
+.fini           0x000000000000a2a4       0x14
+ *(SORT_NONE(.fini))
+ .fini          0x000000000000a2a4        0xf /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crti.o
+                0x000000000000a2a4                _fini
+ .fini          0x000000000000a2b3        0x5 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x000000000000a2b8     0x1796
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x000000000000a2b8        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                0x000000000000a2b8                _IO_stdin_used
+ .rodata.short_opts
+                0x000000000000a2bc        0xd /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ *fill*         0x000000000000a2c9        0x3 
+ .rodata        0x000000000000a2cc      0x4df /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .rodata        0x000000000000a7ab       0x88 /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+ *fill*         0x000000000000a833        0x1 
+ .rodata        0x000000000000a834       0x1f /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ *fill*         0x000000000000a853        0x1 
+ .rodata        0x000000000000a854       0x45 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .rodata        0x000000000000a899        0xa /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+ .rodata        0x000000000000a8a3        0xe /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ *fill*         0x000000000000a8b1        0x3 
+ .rodata.assert_crash_message
+                0x000000000000a8b4       0x12 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+                0x000000000000a8b4                assert_crash_message
+ .rodata        0x000000000000a8c6       0x2d /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ *fill*         0x000000000000a8f3        0x1 
+ .rodata        0x000000000000a8f4      0x1b2 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ *fill*         0x000000000000aaa6        0x2 
+ .rodata        0x000000000000aaa8      0x3bc /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .rodata        0x000000000000ae64      0x1a5 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .rodata        0x000000000000b009       0x52 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ *fill*         0x000000000000b05b        0x1 
+ .rodata        0x000000000000b05c       0x5e /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ *fill*         0x000000000000b0ba        0x2 
+ .rodata        0x000000000000b0bc      0x163 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+ .rodata        0x000000000000b21f       0x10 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ *fill*         0x000000000000b22f        0x1 
+ .rodata        0x000000000000b230       0x98 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .rodata        0x000000000000b2c8       0xf4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .rodata        0x000000000000b3bc       0xf3 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ *fill*         0x000000000000b4af        0x1 
+ .rodata        0x000000000000b4b0      0x129 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .rodata        0x000000000000b5d9        0xc /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+ *fill*         0x000000000000b5e5        0x3 
+ .rodata        0x000000000000b5e8      0x204 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .rodata        0x000000000000b7ec       0x7a /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ *fill*         0x000000000000b866        0x2 
+ .rodata._hex_chars
+                0x000000000000b868       0x10 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .rodata        0x000000000000b878       0x69 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ *fill*         0x000000000000b8e1        0x3 
+ .rodata._test_options
+                0x000000000000b8e4       0x20 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .rodata.enable.4930
+                0x000000000000b904        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .rodata        0x000000000000b908       0x88 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .rodata        0x000000000000b990       0x20 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .rodata.netdev_eth_get
+                0x000000000000b9b0       0x90 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .rodata        0x000000000000ba40        0xe /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000ba50      0x6d4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000ba50      0x6d4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x000000000000ba50                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000c124     0x1d8c
+ *(.eh_frame)
+ .eh_frame      0x000000000000c124       0x3c /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000c160       0x14 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                                         0x2c (size before relaxing)
+ .eh_frame      0x000000000000c174       0xd0 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                                         0xfc (size before relaxing)
+ .eh_frame      0x000000000000c244       0x38 /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+                                         0x64 (size before relaxing)
+ .eh_frame      0x000000000000c27c       0x24 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000000c2a0        0x0 /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000000c2a0       0x5c /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x000000000000c2fc       0x1c /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x000000000000c318       0xa0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+                                        0x1dc (size before relaxing)
+ .eh_frame      0x000000000000c3b8       0x3c /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x000000000000c3f4       0xe8 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                                        0x128 (size before relaxing)
+ .eh_frame      0x000000000000c4dc      0x358 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                                        0x3bc (size before relaxing)
+ .eh_frame      0x000000000000c834      0x200 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                                        0x2e0 (size before relaxing)
+ .eh_frame      0x000000000000ca34      0x108 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                                        0x168 (size before relaxing)
+ .eh_frame      0x000000000000cb3c       0x48 /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+                                        0x104 (size before relaxing)
+ .eh_frame      0x000000000000cb84       0x24 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+                                        0x110 (size before relaxing)
+ .eh_frame      0x000000000000cba8       0x40 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x000000000000cbe8       0x30 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+                                         0x5c (size before relaxing)
+ .eh_frame      0x000000000000cc18       0x24 /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000000cc3c       0x24 /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000000cc60       0x24 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000000cc84       0x98 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+                                         0xfc (size before relaxing)
+ .eh_frame      0x000000000000cd1c      0x224 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+                                        0x264 (size before relaxing)
+ .eh_frame      0x000000000000cf40       0x44 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+                                        0x114 (size before relaxing)
+ .eh_frame      0x000000000000cf84      0x230 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                                        0x304 (size before relaxing)
+ .eh_frame      0x000000000000d1b4       0xac /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+                                         0xec (size before relaxing)
+ .eh_frame      0x000000000000d260      0x21c /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+                                        0x270 (size before relaxing)
+ .eh_frame      0x000000000000d47c       0x24 /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000000d4a0       0x48 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+                                        0x160 (size before relaxing)
+ .eh_frame      0x000000000000d4e8       0x68 /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+                                         0xcc (size before relaxing)
+ .eh_frame      0x000000000000d550      0x248 /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+                                        0x33c (size before relaxing)
+ .eh_frame      0x000000000000d798      0x108 /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+                                        0x574 (size before relaxing)
+ .eh_frame      0x000000000000d8a0      0x264 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+                                        0x360 (size before relaxing)
+ .eh_frame      0x000000000000db04       0x20 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+                                         0x70 (size before relaxing)
+ .eh_frame      0x000000000000db24       0x6c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+                                         0xac (size before relaxing)
+ .eh_frame      0x000000000000db90       0x40 /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+                                         0x8c (size before relaxing)
+ .eh_frame      0x000000000000dbd0        0x0 /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+                                        0x10c (size before relaxing)
+ .eh_frame      0x000000000000dbd0       0xa4 /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x000000000000dc74       0xd0 /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+                                        0x130 (size before relaxing)
+ .eh_frame      0x000000000000dd44       0x6c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+                                         0xd0 (size before relaxing)
+ .eh_frame      0x000000000000ddb0       0x80 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                                        0x164 (size before relaxing)
+ .eh_frame      0x000000000000de30       0x60 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                                         0x8c (size before relaxing)
+ .eh_frame      0x000000000000de90       0x1c /usr/lib32/libc_nonshared.a(stack_chk_fail_local.oS)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x000000000000deac        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000000fd74                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000000fd74        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000000000000fd74        0x8
+                0x000000000000fd74                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000000fd74        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .init_array    0x000000000000fd78        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x000000000000fd7c                PROVIDE (__init_array_end = .)
+
+.fini_array     0x000000000000fd7c        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000000fd7c        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000000fd80       0xc0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local.long_opts
+                0x000000000000fd80       0x90 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .data.rel.ro.local.netdev_driver_tap
+                0x000000000000fe10       0x18 /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000000fe28        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ .data.rel.ro.ethernet_ops
+                0x000000000000fe28       0x18 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+
+.dynamic        0x000000000000fe40      0x108
+ *(.dynamic)
+ .dynamic       0x000000000000fe40      0x108 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                0x000000000000fe40                _DYNAMIC
+
+.got            0x000000000000ff48       0xb8
+ *(.got.plt)
+ .got.plt       0x000000000000ff48       0x98 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+                0x000000000000ff48                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x000000000000ffe0       0x20 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.igot)
+                0x0000000000010000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000010000       0x50
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000010000        0x4 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+                0x0000000000010000                __dso_handle
+ .data.rel.local.main_name
+                0x0000000000010004        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+                0x0000000000010004                main_name
+ .data.rel.local.idle_name
+                0x0000000000010008        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+                0x0000000000010008                idle_name
+ *fill*         0x000000000001000c       0x14 
+ .data.rel.local.state_names
+                0x0000000000010020       0x30 /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+
+.tm_clone_table
+                0x0000000000010050        0x0
+ .tm_clone_table
+                0x0000000000010050        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ .tm_clone_table
+                0x0000000000010050        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000010050                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000010050                . = .
+                0x0000000000010050                __bss_start = .
+
+.bss            0x0000000000010060    0x11924
+ *(.dynbss)
+ .dynbss        0x0000000000010060        0x0 /usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/Scrt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000010060        0x1 /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+ *fill*         0x0000000000010061        0x3 
+ .bss._native_null_in_pipe
+                0x0000000000010064        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x0000000000010064                _native_null_in_pipe
+ .bss._native_null_out_file
+                0x000000000001006c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x000000000001006c                _native_null_out_file
+ .bss._progname
+                0x0000000000010070        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x0000000000010070                _progname
+ .bss._native_argv
+                0x0000000000010074        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x0000000000010074                _native_argv
+ .bss._native_pid
+                0x0000000000010078        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x0000000000010078                _native_pid
+ .bss._native_id
+                0x000000000001007c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x000000000001007c                _native_id
+ .bss._native_rng_seed
+                0x0000000000010080        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x0000000000010080                _native_rng_seed
+ .bss._native_rng_mode
+                0x0000000000010084        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x0000000000010084                _native_rng_mode
+ .bss.netdev_tap_params
+                0x0000000000010088        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+                0x0000000000010088                netdev_tap_params
+ *fill*         0x000000000001008c       0x14 
+ .bss.main_stack
+                0x00000000000100a0     0x3000 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .bss.idle_stack
+                0x00000000000130a0     0x2000 /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .bss.crashed   0x00000000000150a0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .bss.sched_num_threads
+                0x00000000000150a4        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x00000000000150a4                sched_num_threads
+ .bss.sched_context_switch_request
+                0x00000000000150a8        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x00000000000150a8                sched_context_switch_request
+ *fill*         0x00000000000150ac       0x14 
+ .bss.sched_threads
+                0x00000000000150c0       0x84 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x00000000000150c0                sched_threads
+ .bss.sched_active_thread
+                0x0000000000015144        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x0000000000015144                sched_active_thread
+ .bss.sched_active_pid
+                0x0000000000015148        0x2 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x0000000000015148                sched_active_pid
+ *fill*         0x000000000001514a       0x16 
+ .bss.sched_runqueues
+                0x0000000000015160       0x40 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+                0x0000000000015160                sched_runqueues
+ .bss.runqueue_bitcache
+                0x00000000000151a0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .bss.real_read
+                0x00000000000151a4        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151a4                real_read
+ .bss.real_write
+                0x00000000000151a8        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151a8                real_write
+ .bss.real_fread
+                0x00000000000151ac        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151ac                real_fread
+ .bss.real_clearerr
+                0x00000000000151b0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151b0                real_clearerr
+ .bss.real_exit
+                0x00000000000151b4        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151b4                real_exit
+ .bss.real_free
+                0x00000000000151b8        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151b8                real_free
+ .bss.real_malloc
+                0x00000000000151bc        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151bc                real_malloc
+ .bss.real_calloc
+                0x00000000000151c0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151c0                real_calloc
+ .bss.real_realloc
+                0x00000000000151c4        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151c4                real_realloc
+ .bss.real_freeaddrinfo
+                0x00000000000151c8        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151c8                real_freeaddrinfo
+ .bss.real_freeifaddrs
+                0x00000000000151cc        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151cc                real_freeifaddrs
+ .bss.real_srandom
+                0x00000000000151d0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151d0                real_srandom
+ .bss.real_accept
+                0x00000000000151d4        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151d4                real_accept
+ .bss.real_bind
+                0x00000000000151d8        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151d8                real_bind
+ .bss.real_connect
+                0x00000000000151dc        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151dc                real_connect
+ .bss.real_printf
+                0x00000000000151e0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151e0                real_printf
+ .bss.real_getaddrinfo
+                0x00000000000151e4        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151e4                real_getaddrinfo
+ .bss.real_getifaddrs
+                0x00000000000151e8        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151e8                real_getifaddrs
+ .bss.real_gettimeofday
+                0x00000000000151ec        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151ec                real_gettimeofday
+ .bss.real_getpid
+                0x00000000000151f0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151f0                real_getpid
+ .bss.real_chdir
+                0x00000000000151f4        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151f4                real_chdir
+ .bss.real_close
+                0x00000000000151f8        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151f8                real_close
+ .bss.real_fcntl
+                0x00000000000151fc        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x00000000000151fc                real_fcntl
+ .bss.real_creat
+                0x0000000000015200        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015200                real_creat
+ .bss.real_dup2
+                0x0000000000015204        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015204                real_dup2
+ .bss.real_execve
+                0x0000000000015208        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015208                real_execve
+ .bss.real_fork
+                0x000000000001520c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000001520c                real_fork
+ .bss.real_feof
+                0x0000000000015210        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015210                real_feof
+ .bss.real_ferror
+                0x0000000000015214        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015214                real_ferror
+ .bss.real_listen
+                0x0000000000015218        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015218                real_listen
+ .bss.real_ioctl
+                0x000000000001521c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000001521c                real_ioctl
+ .bss.real_open
+                0x0000000000015220        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015220                real_open
+ .bss.real_pause
+                0x0000000000015224        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015224                real_pause
+ .bss.real_pipe
+                0x0000000000015228        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015228                real_pipe
+ .bss.real_select
+                0x000000000001522c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000001522c                real_select
+ .bss.real_setitimer
+                0x0000000000015230        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015230                real_setitimer
+ .bss.real_setsid
+                0x0000000000015234        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015234                real_setsid
+ .bss.real_setsockopt
+                0x0000000000015238        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015238                real_setsockopt
+ .bss.real_socket
+                0x000000000001523c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000001523c                real_socket
+ .bss.real_unlink
+                0x0000000000015240        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015240                real_unlink
+ .bss.real_random
+                0x0000000000015244        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015244                real_random
+ .bss.real_gai_strerror
+                0x0000000000015248        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015248                real_gai_strerror
+ .bss.real_fopen
+                0x000000000001524c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000001524c                real_fopen
+ .bss.real_fclose
+                0x0000000000015250        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015250                real_fclose
+ .bss.real_fseek
+                0x0000000000015254        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015254                real_fseek
+ .bss.real_fputc
+                0x0000000000015258        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015258                real_fputc
+ .bss.real_fgetc
+                0x000000000001525c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000001525c                real_fgetc
+ .bss.real_umask
+                0x0000000000015260        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015260                real_umask
+ .bss.real_writev
+                0x0000000000015264        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015264                real_writev
+ .bss.real_clock_gettime
+                0x0000000000015268        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015268                real_clock_gettime
+ .bss._native_in_malloc
+                0x000000000001526c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x000000000001526c                _native_in_malloc
+ .bss._native_in_calloc
+                0x0000000000015270        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+                0x0000000000015270                _native_in_calloc
+ .bss.native_interrupts_enabled
+                0x0000000000015274        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000015274                native_interrupts_enabled
+ .bss._native_in_isr
+                0x0000000000015278        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000015278                _native_in_isr
+ .bss._native_in_syscall
+                0x000000000001527c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x000000000001527c                _native_in_syscall
+ .bss._native_sig_set
+                0x0000000000015280       0x80 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .bss._native_sig_set_dint
+                0x0000000000015300       0x80 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .bss.__isr_stack
+                0x0000000000015380     0x2000 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000015380                __isr_stack
+ .bss.native_isr_context
+                0x0000000000017380      0x15c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000017380                native_isr_context
+ .bss._native_cur_ctx
+                0x00000000000174dc        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000174dc                _native_cur_ctx
+ .bss._native_isr_ctx
+                0x00000000000174e0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000174e0                _native_isr_ctx
+ .bss._native_saved_eip
+                0x00000000000174e4        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000174e4                _native_saved_eip
+ .bss._native_sigpend
+                0x00000000000174e8        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000174e8                _native_sigpend
+ .bss._sig_pipefd
+                0x00000000000174ec        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000174ec                _sig_pipefd
+ *fill*         0x00000000000174f4        0xc 
+ .bss.native_irq_handlers
+                0x0000000000017500      0x3fc /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ *fill*         0x00000000000178fc        0x4 
+ .bss.sigalt_stk
+                0x0000000000017900     0x2000 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000017900                sigalt_stk
+ .bss.sigstk.5127
+                0x0000000000019900        0xc /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ *fill*         0x000000000001990c       0x14 
+ .bss.end_context
+                0x0000000000019920      0x15c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x0000000000019920                end_context
+ *fill*         0x0000000000019a7c        0x4 
+ .bss.__end_stack
+                0x0000000000019a80     0x2000 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+                0x0000000000019a80                __end_stack
+ .bss.tty_device_filenames
+                0x000000000001ba80        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ *fill*         0x000000000001ba84       0x1c 
+ .bss.netdev_tap
+                0x000000000001baa0       0x28 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ *fill*         0x000000000001bac8       0x18 
+ .bss._netdev_eth_stack
+                0x000000000001bae0     0x2000 /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .bss._next_index
+                0x000000000001dae0        0x4 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .bss._fds      0x000000000001dae4        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .bss._args     0x000000000001daec        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .bss._native_async_read_callbacks
+                0x000000000001daf4        0x8 /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .bss._mutex    0x000000000001dafc        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss._pktbuf   0x000000000001db00      0x800 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss._first_unused
+                0x000000000001e300        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss.max_byte_count
+                0x000000000001e304        0x2 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss.gnrc_pktdump_pid
+                0x000000000001e306        0x2 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+                0x000000000001e306                gnrc_pktdump_pid
+ *fill*         0x000000000001e308       0x18 
+ .bss._stack    0x000000000001e320     0x3000 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .bss.nullbuf.5638
+                0x0000000000021320      0x5ea /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ *fill*         0x000000000002190a        0x2 
+ .bss._native_rtc_initialized
+                0x000000000002190c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .bss._native_rtc_powered
+                0x0000000000021910        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ *fill*         0x0000000000021914        0xc 
+ .bss._native_rtc_alarm
+                0x0000000000021920       0x2c /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .bss._native_rtc_alarm_callback
+                0x000000000002194c        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .bss._native_rtc_alarm_argument
+                0x0000000000021950        0x4 /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ *fill*         0x0000000000021954        0xc 
+ .bss._netifs   0x0000000000021960       0x20 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .bss.netreg    0x0000000000021980        0x4 /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ *(COMMON)
+                0x0000000000021984                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000021984                . = ALIGN (0x4)
+                0x0000000000021984                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000021984                . = ALIGN (0x4)
+                0x0000000000021984                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000021984                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/7/32/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/cpu/startup.o
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/application_my_project.a(main.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/board.a(board_init.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/board.a(board.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/core.a(kernel_init.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/core.a(assert.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/core.a(thread.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/core.a(panic.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/core.a(sched.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(syscalls.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(irq_cpu.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(native_cpu.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/native-drivers.a(native-led.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/periph.a(uart.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/periph.a(pm.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/ps.a(ps.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/periph_common.a(init.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/auto_init.a(auto_init.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/cpu.a(async_read.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_ethernet.a(gnrc_netif_ethernet.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/netdev_tap.a(netdev_tap.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/od.a(od.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/periph.a(rtc.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/core.a(mutex.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/core.a(msg.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/fmt.a(fmt.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif.a(gnrc_netif_device_type.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/iolist.a(iolist.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/l2util.a(l2util.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/netdev_eth.a(netdev_eth.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/core.a(rmutex.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .comment       0x000000000000002b       0x2c /home/vishav/RIOT/examples/my_project/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/7/32/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/home/vishav/RIOT/examples/my_project/bin/native/my_project.elf elf32-i386)
